@@ -21,9 +21,12 @@ kolobok('заяц')
 
 
 function newYear(percon) {
-    console.log(percon +'! ' + percon +'! ' +percon +'!')
+
+    return (percon +'! ' + percon +'! ' +percon +'!')
 }
 
 newYear('Дед Мороз');
-
 newYear('Снегурочка')
+
+const greet = newYear('Дед Мороз');
+console.log(greeting);
