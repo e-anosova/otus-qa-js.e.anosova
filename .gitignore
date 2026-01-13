@@ -1,1 +1,47 @@
-# Project dependencies
+# Dependencies
+node_modules/
+.npm
+.pnpm
+.yarn/
+yarn.lock
+package-lock.json
+pnpm-lock.yaml
+
+# Testing
+coverage/
+.nyc_output
+
+# Environment
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs
+dist/
+build/
+out/
+
+# Jest cache
+.jest-cache/
+
+# Temporary files
+tmp/
+temp/
+EOF
