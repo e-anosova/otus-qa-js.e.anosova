@@ -1,0 +1,25 @@
+{
+  "name": "otus-qa-js.e.anosova",
+  "version": "1.0.0",
+  "description": "Создано в рамках курса OTUS JavaScript QA Engineer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e-anosova/otus-qa-js.e.anosova.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/e-anosova/otus-qa-js.e.anosova/issues"
+  },
+  "homepage": "https://github.com/e-anosova/otus-qa-js.e.anosova#readme",
+  "devDependencies": {
+    "@babel/core": "^7.28.6",
+    "@babel/preset-env": "^7.28.6",
+    "babel-jest": "^29.7.0"
+  }
+}
