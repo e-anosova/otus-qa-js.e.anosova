@@ -1,25 +1,24 @@
 {
-  "name": "otus-qa-js.e.anosova",
+  "name": "otus-qajs",
   "version": "1.0.0",
-  "description": "Создано в рамках курса OTUS JavaScript QA Engineer",
-  "main": "main.js",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/main.js",
+      "lint:ci": "eslint .",
+      "lint": "eslint . --fix"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/e-anosova/otus-qa-js.e.anosova.git"
-  },
+  "author": "Damir Rysaev <freepad@ya.ru>",
   "keywords": [],
-  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/e-anosova/otus-qa-js.e.anosova/issues"
-  },
-  "homepage": "https://github.com/e-anosova/otus-qa-js.e.anosova#readme",
   "devDependencies": {
-    "@babel/core": "^7.28.6",
-    "@babel/preset-env": "^7.28.6",
-    "babel-jest": "^29.7.0"
+    "@eslint/js": "^9.39.2",
+    "eslint": "^9.39.2",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.5",
+    "globals": "^15.15.0",
+    "npm-run-all2": "^7.0.2",
+    "prettier": "3.7.4",
+    "typescript-eslint": "^8.53.0"
   }
 }
