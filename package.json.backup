@@ -3,15 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "babel-node src/main.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test:api": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/api.test.js",
-    "test:app": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/app.test.js",
-    "lint-ci": "eslint .",
+    "lint:ci": "eslint .",
     "lint": "eslint . --fix"
   },
+  "author": "Damir Rysaev <freepad@ya.ru>",
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
@@ -26,19 +23,11 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "globals": "^15.15.0",
-    "jest": "^29.0.0",
     "npm-run-all2": "^7.0.2",
     "prettier": "3.7.4",
     "typescript-eslint": "^8.53.0"
   },
   "dependencies": {
     "axios": "^1.13.2"
-  },
-  "jest": {
-    "testMatch": ["**/specs/tests/**/*.test.js"],
-    "transform": {},
-    "moduleNameMapper": {
-      "^(\\.{1,2}/.*)\\.js$": "$1"
-    }
   }
 }

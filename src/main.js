@@ -1,6 +1,4 @@
-const helloPrefix = 'Hello, '
-
-function greet(name) {
-  return `${helloPrefix} ${name}!`
+const myFunction = name => {
+  return `Первая функция, созданная ${name}`
 }
-console.log(greet('World'))
+console.log(myFunction('Екатерина'))

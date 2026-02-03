@@ -5,7 +5,19 @@ module.exports = {
       '@babel/preset-env',
       {
         targets: {
-          node: 'current'
+          node: '22'
+        }
+      }
+    ]
+  ],
+  plugins: [
+    [
+      'module-resolver',
+      {
+        root: ['./'],
+        alias: {
+          '@': './src',
+          framework: './framework'
         }
       }
     ]
