@@ -3,13 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "babel-node src/main.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test:api": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/api.test.js",
-    "test:app": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/app.test.js",
-    "lint-ci": "eslint .",
+    "test": "jest",
+    "test:user": "jest specs/tests/user.api.test.js", 
+    "test:app": "jest specs/tests/app.test.js",
+    "test:auth": "jest specs/tests/auth.api.test.js",
     "lint": "eslint . --fix"
   },
   "keywords": [],
@@ -36,7 +35,9 @@
   },
   "jest": {
     "testMatch": ["**/specs/tests/**/*.test.js"],
-    "transform": {},
+    "transform": {
+    "^.+\\.[jt]sx?$": "babel-jest"
+  },
     "moduleNameMapper": {
       "^(\\.{1,2}/.*)\\.js$": "$1"
     }
