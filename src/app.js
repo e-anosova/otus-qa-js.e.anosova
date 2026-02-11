@@ -38,3 +38,25 @@ export const getTotal = (items = [], discount = 0) => {
   const total = items.reduce((acc, { price, quantity }) => acc + price * quantity, 0)
   return total * (1 - discount / 100)
 }
+
+const scores = {
+  Petr: 3,
+  Maria: 7,
+  Konstantin: 10
+}
+
+/**
+ * Эта функция считает общую сумму баллов в объекте scores.
+ * @param {Object.<string, number>} scoresObject - объект, где ключ - это имя студента, а значение - балл студента
+ * @returns -
+ */
+function getScore(scoresObject) {
+  let total = 0
+  for (let studentName in scoresObject) {
+    let studentScore = scoresObject[studentName]
+    total = total + studentScore
+  }
+  return total
+}
+
+console.log(getScore(scores))
