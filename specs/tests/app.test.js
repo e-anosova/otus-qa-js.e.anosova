@@ -1,4 +1,4 @@
-const { nameIsValid, fullTrim, getTotal } = require('./app')
+import { nameIsValid, fullTrim, getTotal } from './app.js'
 
 describe('nameIsValid', () => {
   test('Return true for valid name', () => {

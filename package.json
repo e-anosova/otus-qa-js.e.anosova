@@ -7,7 +7,7 @@
   "scripts": {
     "start": "babel-node src/main.js",
     "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test:api": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/api.test.js",
+    "test:api": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/apiTests",
     "test:app": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/app.test.js",
     "lint-ci": "eslint .",
     "lint": "eslint . --fix"
@@ -33,12 +33,5 @@
   },
   "dependencies": {
     "axios": "^1.13.2"
-  },
-  "jest": {
-    "testMatch": ["**/specs/tests/**/*.test.js"],
-    "transform": {},
-    "moduleNameMapper": {
-      "^(\\.{1,2}/.*)\\.js$": "$1"
-    }
   }
 }
