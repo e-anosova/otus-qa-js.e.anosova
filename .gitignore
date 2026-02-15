@@ -5,3 +5,5 @@ reports
 build
 env
 node_modules/
+reports/allure-results/
+reports/allure-report/
