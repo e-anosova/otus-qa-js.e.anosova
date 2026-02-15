@@ -12,8 +12,8 @@
     "lint-ci": "eslint .",
     "lint": "eslint . --fix",
     "allure": "allure serve reports/allure-results",
- "allure:ci": "allure generate reports/allure-results --clean --report-dirreports/allure-report",
- "allure:ci:show": "allure open reports/allure-report"
+    "allure:ci": "allure generate reports/allure-results --clean --report-dirreports/allure-report",
+    "allure:ci:show": "allure open reports/allure-report"
   },
   "keywords": [],
   "license": "ISC",
@@ -36,6 +36,8 @@
     "jest-allure": "^0.1.3",
     "npm-run-all2": "^7.0.2",
     "prettier": "3.7.4",
+    "ts-migrate": "^0.1.35",
+    "typescript": "^5.9.3",
     "typescript-eslint": "^8.53.0"
   },
   "dependencies": {
