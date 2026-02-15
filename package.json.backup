@@ -3,18 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
     "start": "babel-node src/main.js",
-    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
-    "test:api": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/apiTests",
-    "test:app": "NODE_OPTIONS=--experimental-vm-modules jest specs/tests/app.test.js",
-    "lint-ci": "eslint .",
-    "lint": "eslint . --fix",
-    "allure": "allure serve reports/allure-results",
- "allure:ci": "allure generate reports/allure-results --clean --report-dirreports/allure-report",
- "allure:ci:show": "allure open reports/allure-report"
+    "lint:ci": "eslint .",
+    "lint": "eslint . --fix"
   },
+  "author": "Damir Rysaev <freepad@ya.ru>",
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
@@ -24,16 +18,11 @@
     "@babel/preset-env": "7.28.6",
     "@eslint/js": "^9.39.2",
     "@faker-js/faker": "^9.9.0",
-    "allure-commandline": "^2.36.0",
-    "allure-jest": "^3.4.5",
-    "allure-js-commons": "^3.4.5",
     "babel-plugin-module-resolver": "^5.0.2",
     "eslint": "^9.39.2",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.5",
     "globals": "^15.15.0",
-    "jest": "^29.0.0",
-    "jest-allure": "^0.1.3",
     "npm-run-all2": "^7.0.2",
     "prettier": "3.7.4",
     "typescript-eslint": "^8.53.0"
