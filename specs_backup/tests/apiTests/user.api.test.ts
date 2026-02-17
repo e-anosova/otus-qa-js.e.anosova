@@ -1,80 +1,74 @@
 import axios from 'axios'
-import { generateUserCredentials } from '../../../framework/fixtures/userFixture'
+import { generateUserCredentials } from '../../../framework/fixtures/userFixture.js'
 import {
   createUser,
   generateToken,
   authorizeUser,
   getUser,
   deleteUser
-} from '../../../framework/services/userService'
+} from '../../../framework/services/userService.js'
+import { en_CA } from '@faker-js/faker'
 
-interface CreateUserRequest {
-  userName: string;
-  password: string;
-}
-
-interface CreateUserResponse {
-  userID?: string;
-  id?: string;
-  userName?: string;
-  message?: string;
-  code?: string;
-}
-
-interface TokenResponse {
-  token: string;
-}
-
+// @ts-expect-error TS(2593): Cannot find name 'describe'. Do you need to instal... Remove this comment to see the full error message
 describe('Создание пользователя', () => {
-  let testUserId: string;
-  let userName: string;
-  let authToken: string;
-  
-
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Метод создания пользователя возвращает ошибку 406 для занятого логина', async () => {
-       const userData: CreateUserRequest = generateUserCredentials();
+    const userData = generateUserCredentials()
 
     const firstResponse = await createUser({
       userName: userData.userName,
       password: userData.password
     })
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(firstResponse.status).toBe(201)
 
     const secondResponse = await createUser({
       userName: userData.userName,
       password: userData.password
-    }) as any;
+    })
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(secondResponse.status).toBe(406)
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(secondResponse.data.code).toBe('1204')
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(secondResponse.data.message).toBe('User exists!')
   })
 
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Метод создания пользователя возвращает ошибку при неправильном пароле', async () => {
     const userData = generateUserCredentials()
 
     const userName = userData.userName
     const password = '12345'
 
-    const response = await createUser({ userName, password }) as any;
+    const response = await createUser({ userName, password })
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.status).toBe(400)
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.code).toBe('1300')
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.message).toBe(
       "Passwords must have at least one non alphanumeric character, one digit ('0'-'9'), one uppercase ('A'-'Z'), one lowercase ('a'-'z'), one special character and Password must be eight characters or longer."
     )
   })
 
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Метод создания пользователя отрабатывает успешно', async () => {
     const userData = generateUserCredentials()
+
     const userName = userData.userName
     const password = userData.password
-   
-    const response = await createUser({ userName, password }) as any;
 
+    const response = await createUser({ userName, password })
+
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.status).toBe(201)
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.userID).toBeTruthy
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.username).toEqual(userName)
   })
 })
@@ -113,7 +107,9 @@ describe('Создание пользователя', () => {
 //   })
 // })
 
+// @ts-expect-error TS(2593): Cannot find name 'describe'. Do you need to instal... Remove this comment to see the full error message
 describe('Авторизация', () => {
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Успешная авторизация', async () => {
     const userData = generateUserCredentials()
 
@@ -124,29 +120,37 @@ describe('Авторизация', () => {
       userName: userData.userName,
       password: userData.password
     })
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(firstResponse.status).toBe(201)
 
     const secondResponse = await authorizeUser({ userName, password })
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(secondResponse.status).toBe(200)
   })
 
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Юзер и пароль обязательны', async () => {
     const userName = ' '
     const password = ' '
 
-    const response = await authorizeUser({ userName, password }) as any;
+    const response = await authorizeUser({ userName, password })
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.status).toBe(404)
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.code).toBe('1207')
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.message).toBe('User not found!')
   })
 })
 
+// @ts-expect-error TS(2593): Cannot find name 'describe'. Do you need to instal... Remove this comment to see the full error message
 describe('Успешное удаление пользователя', () => {
   let authToken: any
   let userId: any
 
+  // @ts-expect-error TS(2304): Cannot find name 'beforeEach'.
   beforeEach(async () => {
     //создание пользователя для удаления
     const userData = generateUserCredentials()
@@ -154,7 +158,7 @@ describe('Успешное удаление пользователя', () => {
     const userName = userData.userName
     const password = userData.password
 
-    const createUserResponse = await createUser({ userName, password }) as any;
+    const createUserResponse = await createUser({ userName, password })
     userId = createUserResponse.data.userID
 
     //генерация токена
@@ -162,32 +166,41 @@ describe('Успешное удаление пользователя', () => {
     authToken = tokenResponse
   })
 
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Успешное удаление пользователя', async () => {
     const response = await deleteUser(userId, authToken)
     {
       ;`Bearer ${authToken}`
     }
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.status).toBe(204)
   })
 
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Невозможно удалить неавторизованного пользователя', async () => {
     authToken = ' '
-    const response = await deleteUser(userId, authToken) as any;
+    const response = await deleteUser(userId, authToken)
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.status).toBe(401)
-    expect(response.data.message).toBe('User not authorized!') 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
+    expect(response.data.message).toBe('User not authorized!')
   })
 
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Пользователь для удаления не найден', async () => {
     userId = '1111111111111'
-    const response = await deleteUser(userId, authToken) as any;
+    const response = await deleteUser(userId, authToken)
     {
       ;`Bearer ${authToken}`
-    } 
+    }
 
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.status).toBe(200)
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.code).toBe('1207')
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(response.data.message).toBe('User Id not correct!')
   })
 })

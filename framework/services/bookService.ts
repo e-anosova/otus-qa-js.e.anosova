@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { httpGet, httpPost, httpPut, httpDelete, withAuth } from './baseService'
 
-export const addListOfBooks = async (userId, isbn, token) => {
+export const addListOfBooks = async (userId: any, isbn: any, token: any) => {
   const response = await httpPost(
     '/BookStore/v1/Books',
     {
@@ -26,7 +26,7 @@ export const addListOfBooks = async (userId, isbn, token) => {
   return response
 }
 
-export const deleteBook = async (isbn, userId, token) => {
+export const deleteBook = async (isbn: any, userId: any, token: any) => {
   const config = {
     params: {
       ISBN: isbn,
@@ -38,7 +38,7 @@ export const deleteBook = async (isbn, userId, token) => {
   return response
 }
 
-export const getBook = async isbn => {
+export const getBook = async (isbn: any) => {
   const config = {
     params: { ISBN: isbn },
     headers: {
@@ -49,7 +49,7 @@ export const getBook = async isbn => {
   return response
 }
 
-export const updateBook = async (oldIsbn, userId, token, newIsbn) => {
+export const updateBook = async (oldIsbn: any, userId: any, token: any, newIsbn: any) => {
   const response = await httpPut(
     `/BookStore/v1/Books/${oldIsbn}`,
     {

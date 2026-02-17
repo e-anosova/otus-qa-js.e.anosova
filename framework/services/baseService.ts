@@ -14,30 +14,31 @@ const createClient = (baseURL = 'https://bookstore.demoqa.com') => {
 }
 const client = createClient()
 
-export const httpPost = async (url, data, config = {}) => {
+export const httpPost = async (url: any, data: any, config = {}) => {
   const response = await client.post(url, data, config)
   return response
 }
 
-export const httpGet = async (url, config = {}) => {
+export const httpGet = async (url: any, config = {}) => {
   const response = await client.get(url, config)
   return response
 }
 
-export const httpDelete = async (url, config = {}) => {
+export const httpDelete = async (url: any, config = {}) => {
   const response = await client.delete(url, config)
   return response
 }
 
-export const httpPut = async (url, data, config = {}) => {
+export const httpPut = async (url: any, data: any, config = {}) => {
   const response = await client.put(url, data, config)
   return response
 }
 
-export const withAuth = (token, config = {}) => {
+export const withAuth = (token: any, config = {}) => {
   return {
     ...config,
     headers: {
+      // @ts-expect-error TS(2339): Property 'headers' does not exist on type '{}'.
       ...config.headers,
       Authorization: `Bearer ${token}`
     }

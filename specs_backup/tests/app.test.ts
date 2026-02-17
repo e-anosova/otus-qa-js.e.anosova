@@ -1,4 +1,5 @@
-import { nameIsValid, fullTrim, getTotal } from '../../src/app';
+// @ts-expect-error TS(2307): Cannot find module './app.js' or its corresponding... Remove this comment to see the full error message
+import { nameIsValid, fullTrim, getTotal } from './app.js'
 
 
 describe('nameIsValid', () => {
@@ -15,19 +16,28 @@ describe('nameIsValid', () => {
 
     expect(nameIsValid('a')).toBe(false)
   })
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Return falce for symbols', () => {
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(nameIsValid('*$%')).toBe(false)
   })
 })
 
+// @ts-expect-error TS(2593): Cannot find name 'describe'. Do you need to instal... Remove this comment to see the full error message
 describe('fullTrim', () => {
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Remove space', () => {
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(fullTrim('Test text for remove spases')).toBe('Testtextforremovespases')
   })
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Text without spases is not modified', () => {
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(fullTrim('Testtext')).toBe('Testtext')
   })
+  // @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
   test('Text with numbers', () => {
+    // @ts-expect-error TS(2304): Cannot find name 'expect'.
     expect(fullTrim('1 2 3')).toBe('123')
   })
 })
@@ -76,11 +86,13 @@ const negativeCases = [
   }
 ]
 
+// @ts-expect-error TS(2593): Cannot find name 'test'. Do you need to install ty... Remove this comment to see the full error message
 test.each(validCases)('%s', ({
   items,
   discount,
   expected
 }: any) => {
   const result = getTotal(items, discount)
+  // @ts-expect-error TS(2304): Cannot find name 'expect'.
   expect(result).toEqual(expected)
 })

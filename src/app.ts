@@ -3,7 +3,7 @@
  * @param {string} name
  * @returns {boolean}
  */
-export const nameIsValid = name => typeof name === 'string' && name.length >= 2 && /^[a-z]+$/.test(name)
+export const nameIsValid = (name: any) => typeof name === 'string' && name.length >= 2 && /^[a-z]+$/.test(name)
 
 /**
  * Удаление пробелов из строки
@@ -11,7 +11,7 @@ export const nameIsValid = name => typeof name === 'string' && name.length >= 2 
  * @param {string} text
  * @returns {string}
  */
-export const fullTrim = text => (text ?? '').replace(/\s+/g, '')
+export const fullTrim = (text: any) => (text ?? '').replace(/\s+/g, '')
 
 /**
  * Подсчёт суммы заказа
@@ -50,7 +50,7 @@ const scores = {
  * @param {Object.<string, number>} scoresObject - объект, где ключ - это имя студента, а значение - балл студента
  * @returns -
  */
-function getScore(scoresObject) {
+function getScore(scoresObject: any) {
   let total = 0
   for (let studentName in scoresObject) {
     let studentScore = scoresObject[studentName]

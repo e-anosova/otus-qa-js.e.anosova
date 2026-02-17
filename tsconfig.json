@@ -9,7 +9,14 @@
     // See also https://aka.ms/tsconfig/module
     "module": "commonjs",
     "target": "es2016",
-    "types": [],
+    "types": ["node", "jest"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./node_modules/@faker-js"
+    ],
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -37,5 +44,14 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-  }
+  },
+  "include": [
+    "src/**/*",
+    "specs/**/*",
+    "jest.setup.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
 }

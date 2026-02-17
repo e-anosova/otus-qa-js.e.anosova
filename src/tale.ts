@@ -1,6 +1,6 @@
 let perconName
 
-function kolobok(perconName) {
+function kolobok(perconName: any) {
   switch (perconName) {
     case 'дедушка':
       console.log('Я от дедушки ушёл')
@@ -19,7 +19,7 @@ kolobok('лиса')
 
 kolobok('заяц')
 
-function newYear(percon) {
+function newYear(percon: any) {
   return percon + '! ' + percon + '! ' + percon + '!'
 }
 
@@ -27,4 +27,5 @@ newYear('Дед Мороз')
 newYear('Снегурочка')
 
 const greet = newYear('Дед Мороз')
+// @ts-expect-error TS(2304): Cannot find name 'greeting'.
 console.log(greeting)
