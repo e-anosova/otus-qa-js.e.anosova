@@ -50,7 +50,7 @@ const config = {
   setupFiles: ['dotenv/config'],
   setupFilesAfterEnv: ['<rootDir>/jest.setup.ts'],
 
-  // Репортеры (как в вашем примере)
+  // Репортеры
   reporters: [
     'default',
     ['github-actions', { silent: false }],
@@ -59,7 +59,10 @@ const config = {
       'jest-html-reporters',
       {
         publicPath: './reports/html-report',
-        filename: 'index.html'
+        filename: 'index.html',
+        pageTitle: 'Test Report',  
+        expand: true,                        
+        hideIcon: false    
       }
     ]
   ],
