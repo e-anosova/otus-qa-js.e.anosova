@@ -12,7 +12,7 @@ jobs:
           node-version: 22.12.0  
           cache: 'npm'
       - run: npm ci
-      - run: npm run lint:ci
+      - run: npm run lint-ci
 
   type-check:
     runs-on: ubuntu-latest 
