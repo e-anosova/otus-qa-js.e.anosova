@@ -1,5 +1,4 @@
 import axios from 'axios'
-import config from '../config/config'
 
 const createClient = (baseURL = 'https://bookstore.demoqa.com') => {
   return axios.create({
@@ -14,7 +13,7 @@ const createClient = (baseURL = 'https://bookstore.demoqa.com') => {
 }
 const client = createClient()
 
-export const httpPost = async (url: any, data: any, config = {}) => {
+export const httpPost = async (url: string, data: any, config = {}) => {
   const response = await client.post(url, data, config)
   return response
 }

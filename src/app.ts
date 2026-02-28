@@ -52,8 +52,8 @@ const scores = {
  */
 function getScore(scoresObject: any) {
   let total = 0
-  for (let studentName in scoresObject) {
-    let studentScore = scoresObject[studentName]
+  for (const studentName in scoresObject) {
+    const studentScore = scoresObject[studentName]
     total = total + studentScore
   }
   return total

@@ -47,6 +47,7 @@
   },
   "include": [
     "src/**/*",
+    "framework/**/*",
     "specs/**/*",
     "jest.setup.ts"
   ],

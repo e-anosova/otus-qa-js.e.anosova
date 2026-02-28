@@ -2,10 +2,10 @@ import axios from 'axios'
 import { httpGet, httpPost, httpPut, httpDelete, withAuth } from './baseService'
 
 interface TokenResponse {
-  token: string;
-  expires?: string;
-  status?: string;
-  result?: string;
+  token: string
+  expires?: string
+  status?: string
+  result?: string
 }
 
 export const createUser = async (userData: any) => {
@@ -14,7 +14,7 @@ export const createUser = async (userData: any) => {
 }
 
 export const generateToken = async (userData: any) => {
-  const response = await httpPost('/Account/v1/GenerateToken', userData) as { data: TokenResponse }
+  const response = (await httpPost('/Account/v1/GenerateToken', userData)) as { data: TokenResponse }
   return response.data.token
 }
 
