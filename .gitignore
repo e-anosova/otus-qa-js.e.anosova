@@ -7,3 +7,6 @@ env
 node_modules/
 reports/allure-results/
 reports/allure-report/
+reports/
+coverage/
+jest-html-reporters-attach/

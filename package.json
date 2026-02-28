@@ -7,7 +7,7 @@
     "start": "babel-node src/main.js",
     "type-check": "tsc --noEmit",
     "test": "jest --runInBand",
-    "lint-ci": "eslint .",
+    "lint-ci": "eslint src framework --ext .js,.ts",
     "lint": "eslint . --fix",
     "allure": "allure serve reports/allure-results",
     "allure:ci": "allure generate reports/allure-results --clean --report-dirreports/allure-report",

@@ -60,9 +60,9 @@ const config = {
       {
         publicPath: './reports/html-report',
         filename: 'index.html',
-        pageTitle: 'Test Report',  
-        expand: true,                        
-        hideIcon: false    
+        pageTitle: 'Test Report',
+        expand: true,
+        hideIcon: false
       }
     ]
   ],
