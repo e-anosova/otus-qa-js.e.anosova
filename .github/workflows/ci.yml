@@ -2,6 +2,11 @@ name: CI
 
 on: push
 
+
+concurrency:
+  group: 'pages'
+  cancel-in-progress: false
+
 jobs:
   codestyle:  
     runs-on: ubuntu-latest
@@ -39,3 +44,50 @@ jobs:
       - run: npm ci
       - run: echo "${{ vars.ENV_FILE }}" >> .env  
       - run: npm test
+      - name: Upload reports artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reports
+          path: reports/html-report
+
+  notify:
+   if: always()
+   needs:
+     - test
+   runs-on: ubuntu-latest
+
+  steps:
+    - run
+
+  deploy:
+    if: always()
+    needs: test
+
+    runs-on: ubuntu-latest
+
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    permissions:
+      contents: write
+      pages: write
+      id-token: write
+
+    steps:
+    - name: Download reports artifact
+      uses: actions/download-artifact@v4
+      with:
+        name: reports
+        path: reports/html-report
+    - name: Setup Pages
+      uses: actions/configure-pages@v4
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: 'reports/html-report'
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+
