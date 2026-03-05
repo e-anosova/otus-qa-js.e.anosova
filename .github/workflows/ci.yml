@@ -51,6 +51,22 @@ jobs:
           name: reports
           path: reports/html-report
 
+    steps:
+      - name: Debug secrets (безопасно)
+        run: |
+          echo "Token length: ${{ secrets.TEST_TELEGRAM_TOKEN != '' && '***' || 'NOT SET' }}"
+          echo "Chat ID length: ${{ secrets.TEST_TELEGRAM_CHAT_ID != '' && '***' || 'NOT SET' }}"
+  
+      - name: Send Telegram notification
+        run: |
+          curl --request POST \
+            --url "https://api.telegram.org/bot${{ secrets.TEST_TELEGRAM_TOKEN }}/sendMessage" \
+            --header 'Content-Type: application/json' \
+           --data "{
+             \"chat_id\": \"${{ secrets.TEST_TELEGRAM_CHAT_ID }}\",
+             \"text\": \"Report link: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
+           }"
+
   notify:
     if: always()
     needs:
