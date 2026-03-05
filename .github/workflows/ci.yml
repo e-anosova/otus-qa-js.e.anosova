@@ -65,9 +65,6 @@ jobs:
                --header 'Content-Type: application/json' \
                 --data '{ "chat_id": "${{secrets.TEST_TELEGRAM_CHAT_ID}}", "text": "Report link: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}" }'
 
-  steps:
-    - run
-
   deploy:
     if: always()
     needs: test
