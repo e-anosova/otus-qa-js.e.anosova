@@ -66,7 +66,7 @@ jobs:
           --header 'Content-Type: application/json' \
           --data "{ 
               \"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\",
-              \"text\": \"Test Results: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}/artifacts/${{ steps.artifact.outputs.artifact_id }}\"
+              \"text\": \"Test Results: https://github.com/${{ github.repository }}/actions/runs/${{ github.run_id }}\"
               }"
 
   deploy:
