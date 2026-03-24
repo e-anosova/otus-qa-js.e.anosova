@@ -3,7 +3,7 @@
  * @param {string} name
  * @returns {boolean}
  */
-export const nameIsValid = name => typeof name === 'string' && name.length >= 2 && /^[a-z]+$/.test(name)
+export const nameIsValid = (name: any) => typeof name === 'string' && name.length >= 2 && /^[a-z]+$/.test(name)
 
 /**
  * Удаление пробелов из строки
@@ -11,7 +11,7 @@ export const nameIsValid = name => typeof name === 'string' && name.length >= 2 
  * @param {string} text
  * @returns {string}
  */
-export const fullTrim = text => (text ?? '').replace(/\s+/g, '')
+export const fullTrim = (text: any) => (text ?? '').replace(/\s+/g, '')
 
 /**
  * Подсчёт суммы заказа
@@ -38,3 +38,25 @@ export const getTotal = (items = [], discount = 0) => {
   const total = items.reduce((acc, { price, quantity }) => acc + price * quantity, 0)
   return total * (1 - discount / 100)
 }
+
+const scores = {
+  Petr: 3,
+  Maria: 7,
+  Konstantin: 10
+}
+
+/**
+ * Эта функция считает общую сумму баллов в объекте scores.
+ * @param {Object.<string, number>} scoresObject - объект, где ключ - это имя студента, а значение - балл студента
+ * @returns -
+ */
+function getScore(scoresObject: any) {
+  let total = 0
+  for (const studentName in scoresObject) {
+    const studentScore = scoresObject[studentName]
+    total = total + studentScore
+  }
+  return total
+}
+
+console.log(getScore(scores))

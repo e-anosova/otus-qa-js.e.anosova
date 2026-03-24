@@ -1,0 +1,24 @@
+// babel.config.js в корне проекта
+module.exports = {
+  presets: [
+    [
+["@babel/preset-env", {
+      "targets": { "node": "20" }
+    }],
+    "@babel/preset-typescript"
+    ],
+    '@babel/preset-typescript',
+  ],
+  plugins: [
+    [
+      'module-resolver',
+      {
+        root: ['./'],
+        alias: {
+          '@': './src',
+          framework: './framework'
+        }
+      }
+    ]
+  ]
+}
