@@ -50,7 +50,7 @@
     "framework/**/*",
     "specs/**/*",
     "jest.setup.ts"
-  ],
+, "playwright-tests/locators.test.ts"  ],
   "exclude": [
     "node_modules",
     "dist"

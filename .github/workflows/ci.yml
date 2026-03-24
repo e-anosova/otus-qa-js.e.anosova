@@ -45,7 +45,7 @@ jobs:
       - run: echo "${{ vars.ENV_FILE }}" >> .env  
       - run: npm test
       - name: Upload reports artifact
-        if: always()
+        if: always()npm install -D @playwright/test
         uses: actions/upload-artifact@v4
         with:
           name: reports
