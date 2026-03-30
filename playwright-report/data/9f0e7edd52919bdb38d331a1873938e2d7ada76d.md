@@ -1,0 +1,1083 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - generic [ref=e3]:
+    - generic [ref=e4]:
+      - img "Картинка баннера" [ref=e6]
+      - generic [ref=e8]:
+        - paragraph [ref=e10]: Размещайте вакансии и получите 500 бонусов.
+        - paragraph [ref=e12]:
+          - link "Найти сотрудника →" [ref=e13] [cursor=pointer]:
+            - /url: https://www.avito.ru/employer/promo_for_vacancies/
+      - img [ref=e15]
+    - generic [ref=e18]:
+      - list [ref=e20]:
+        - listitem [ref=e21]:
+          - button "Для бизнеса" [ref=e24] [cursor=pointer]:
+            - text: Для бизнеса
+            - img [ref=e26]
+        - listitem [ref=e27]:
+          - link "Карьера в Авито" [ref=e28] [cursor=pointer]:
+            - /url: //career.avito.com/?utm_source=avito.ru&utm_medium=referral&utm_campaign=test_placement_to_career&utm_content=top_vacancy
+        - listitem [ref=e29]:
+          - link "Помощь" [ref=e30] [cursor=pointer]:
+            - /url: //support.avito.ru
+        - listitem [ref=e31]:
+          - button "Каталоги" [ref=e34] [cursor=pointer]:
+            - text: Каталоги
+            - img [ref=e36]
+        - listitem [ref=e37]:
+          - link "#яПомогаю" [ref=e38] [cursor=pointer]:
+            - /url: /avito-care?from=mp_header
+      - generic [ref=e39]:
+        - link "Избранное" [ref=e40] [cursor=pointer]:
+          - /url: /favorites
+          - generic [ref=e41]: Избранное
+          - img [ref=e42]
+        - link "Корзина" [ref=e43] [cursor=pointer]:
+          - /url: "#login?next=%2Forder%2Fcart"
+          - generic [ref=e44]: Корзина
+          - img [ref=e45]
+      - link "Вход и регистрация" [ref=e47] [cursor=pointer]:
+        - /url: "#login?authsrc=h"
+        - img [ref=e49]
+        - text: Вход и регистрация
+      - link "Разместить объявление" [ref=e51] [cursor=pointer]:
+        - /url: "#login?next=%2Fadditem&authsrc=ca"
+        - img [ref=e53]
+        - text: Разместить объявление
+    - generic [ref=e59]:
+      - generic [ref=e62]:
+        - link "Авито — сайт объявлений" [ref=e65] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e66]:
+            - img [ref=e67]
+            - img [ref=e72]
+        - generic [ref=e74]:
+          - button "Все категории" [ref=e78]:
+            - button "Все категории" [ref=e81] [cursor=pointer]:
+              - generic [ref=e82]:
+                - img [ref=e86]
+                - generic [ref=e87]: Все категории
+          - generic [ref=e88]:
+            - generic [ref=e92]:
+              - img [ref=e95]
+              - textbox [active] [ref=e99]:
+                - /placeholder: Поиск по объявлениям
+            - button "Найти" [ref=e101] [cursor=pointer]:
+              - paragraph [ref=e104]: Найти
+        - button "Саратов" [ref=e108] [cursor=pointer]:
+          - img [ref=e110]
+          - paragraph [ref=e111]:
+            - generic [ref=e112]: Саратов
+      - generic [ref=e114]:
+        - generic [ref=e118]:
+          - generic [ref=e125]:
+            - article [ref=e127]:
+              - heading "Всё для бизнеса" [level=4] [ref=e128]
+              - paragraph [ref=e129]: Миллионы предложений для разных задач в Авито Бизнес 360
+            - generic [ref=e131]:
+              - link "Оборудование" [ref=e132] [cursor=pointer]:
+                - /url: /saratov/business360/oborudovanie/-ASgBAgICAkTgkxPQ3I4DhuYUxN8M?f=ASgBAgICA0TgkxPQ3I4DhuYUxN8M1OcUAg
+                - generic [ref=e133]:
+                  - img [ref=e135]
+                  - paragraph [ref=e136]: Оборудование
+              - link "Помещения" [ref=e137] [cursor=pointer]:
+                - /url: /saratov/business360/kommercheskaya_nedvizhimost/prodam-ASgBAgICAUSwCNJW
+                - generic [ref=e138]:
+                  - img [ref=e140]
+                  - paragraph [ref=e141]: Помещения
+              - link "Товары" [ref=e142] [cursor=pointer]:
+                - /url: /saratov/business360/tovary_na_realizaciyu_optom/-ASgBAgICAkTgkxPQ3I4DhuYUuOYM?f=ASgBAgICA0TgkxPQ3I4DhuYUuOYM1OcUAg
+                - generic [ref=e143]:
+                  - img [ref=e145]
+                  - paragraph [ref=e146]: Товары
+              - link "Транспорт" [ref=e147] [cursor=pointer]:
+                - /url: /saratov/business360/gruzoviki_i_spetstehnika
+                - generic [ref=e148]:
+                  - img [ref=e150]
+                  - paragraph [ref=e151]: Транспорт
+              - link "Услуги" [ref=e152] [cursor=pointer]:
+                - /url: /saratov/business360/uslugi_dlya_biznesa/-ASgBAgICAkTgkxPQ3I4DhuYUiu4M?f=ASgBAgICBETgkxPQ3I4DhuYUiu4M1OcUAoCrFdaskgM
+                - generic [ref=e153]:
+                  - img [ref=e155]
+                  - paragraph [ref=e156]: Услуги
+              - link "Сотрудники" [ref=e157] [cursor=pointer]:
+                - /url: /saratov/business360/rezume
+                - generic [ref=e158]:
+                  - img [ref=e160]
+                  - paragraph [ref=e161]: Сотрудники
+            - link "Искать в Бизнес 360" [ref=e163] [cursor=pointer]:
+              - /url: /saratov/business360
+              - generic [ref=e164]:
+                - img [ref=e167]
+                - generic [ref=e168]: Искать в Бизнес 360
+          - generic [ref=e169]:
+            - heading "Сервисы и услуги Авито" [level=3] [ref=e170]
+            - list [ref=e171]:
+              - listitem [ref=e172]:
+                - link "Доставка Проверка при получении и возможность бесплатно вернуть товар" [ref=e173] [cursor=pointer]:
+                  - /url: /dostavka#buyer
+                  - heading "Доставка" [level=4] [ref=e174]
+                  - text: Проверка при получении и возможность бесплатно вернуть товар
+              - listitem [ref=e175]:
+                - 'link "Автотека Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах" [ref=e176] [cursor=pointer]':
+                  - /url: /autoteka
+                  - heading "Автотека" [level=4] [ref=e177]
+                  - text: "Отчёт с историей авто: пробег, владельцы, сведения о залоге, ДТП и ремонтах"
+              - listitem [ref=e178]:
+                - link "Путешествия Выбор свободных дат в календаре и оплата онлайн для гарантии заселения" [ref=e179] [cursor=pointer]:
+                  - /url: /rossiya/kvartiry/sdam/posutochno
+                  - heading "Путешествия" [level=4] [ref=e180]
+                  - text: Выбор свободных дат в календаре и оплата онлайн для гарантии заселения
+              - listitem [ref=e181]:
+                - link "#яПомогаю Сохраняйте природу и помогайте людям вместе с нами" [ref=e182] [cursor=pointer]:
+                  - /url: /avito-care?from=mp_services
+                  - heading "#яПомогаю" [level=4] [ref=e183]
+                  - text: Сохраняйте природу и помогайте людям вместе с нами
+          - generic [ref=e184]:
+            - list [ref=e186]:
+              - listitem [ref=e187]: © ООО «КЕХ еКоммерц» 2007–2026.
+              - listitem [ref=e188]:
+                - text: Авито использует
+                - link "рекомендательные технологии" [ref=e189] [cursor=pointer]:
+                  - /url: /legal/rules/rec-technologies/
+                - text: .
+            - list [ref=e191]:
+              - listitem [ref=e192]:
+                - paragraph [ref=e193]:
+                  - link "Правила Авито" [ref=e195] [cursor=pointer]:
+                    - /url: //www.avito.ru/legal/
+              - listitem [ref=e196]:
+                - paragraph [ref=e197]:
+                  - link "Реклама на сайте" [ref=e199] [cursor=pointer]:
+                    - /url: /ads?utm_source=avito&utm_medium=sidebar
+              - listitem [ref=e200]:
+                - paragraph [ref=e201]:
+                  - link "О компании" [ref=e203] [cursor=pointer]:
+                    - /url: /company
+              - listitem [ref=e204]:
+                - paragraph [ref=e205]:
+                  - link "Карьера в Авито" [ref=e207] [cursor=pointer]:
+                    - /url: //career.avito.com/?utm_source=avito.ru&utm_medium=referral&utm_campaign=test_placement_to_career&utm_content=sidebar_vacancy
+        - generic [ref=e211]:
+          - generic [ref=e217]:
+            - link "Авто" [ref=e218] [cursor=pointer]:
+              - /url: /saratov/transport?localPriority=0
+              - article [ref=e220]:
+                - paragraph [ref=e221]: Авто
+              - img "Авто" [ref=e222]
+            - link "Недвижимость" [ref=e223] [cursor=pointer]:
+              - /url: /saratov/nedvizhimost?localPriority=0
+              - article [ref=e225]:
+                - paragraph [ref=e226]: Недвижи- мость
+              - img "Недвижимость" [ref=e227]
+            - link "Работа" [ref=e228] [cursor=pointer]:
+              - /url: /saratov/vakansii?localPriority=0
+              - article [ref=e230]:
+                - paragraph [ref=e231]: Работа
+              - img "Работа" [ref=e232]
+            - link "Одежда, обувь, аксессуары" [ref=e233] [cursor=pointer]:
+              - /url: /saratov/lichnye_veschi?localPriority=0
+              - article [ref=e235]:
+                - paragraph [ref=e236]: Одежда, обувь, аксессуары
+              - img "Одежда, обувь, аксессуары" [ref=e237]
+            - link "Хобби и отдых" [ref=e238] [cursor=pointer]:
+              - /url: /saratov/hobbi_i_otdyh?localPriority=0
+              - article [ref=e240]:
+                - paragraph [ref=e241]: Хобби и отдых
+              - img "Хобби и отдых" [ref=e242]
+            - link "Животные" [ref=e243] [cursor=pointer]:
+              - /url: /saratov/zhivotnye?localPriority=0
+              - article [ref=e245]:
+                - paragraph [ref=e246]: Животные
+              - img "Животные" [ref=e247]
+            - link "Готовый бизнес и оборудование" [ref=e248] [cursor=pointer]:
+              - /url: /saratov/dlya_biznesa?localPriority=0
+              - article [ref=e250]:
+                - paragraph [ref=e251]: Готовый бизнес и оборудование
+              - img "Готовый бизнес и оборудование" [ref=e252]
+            - link "Услуги" [ref=e253] [cursor=pointer]:
+              - /url: /saratov/predlozheniya_uslug?localPriority=0
+              - article [ref=e255]:
+                - paragraph [ref=e256]: Услуги
+              - img "Услуги" [ref=e257]
+            - link "Электроника" [ref=e258] [cursor=pointer]:
+              - /url: /saratov/bytovaya_elektronika?localPriority=0
+              - article [ref=e260]:
+                - paragraph [ref=e261]: Электро- ника
+              - img "Электроника" [ref=e262]
+            - link "Для дома и дачи" [ref=e263] [cursor=pointer]:
+              - /url: /saratov/dlya_doma_i_dachi?localPriority=0
+              - article [ref=e265]:
+                - paragraph [ref=e266]: Для дома и дачи
+              - img "Для дома и дачи" [ref=e267]
+            - link "Запчасти" [ref=e268] [cursor=pointer]:
+              - /url: /saratov/zapchasti_i_aksessuary?localPriority=0
+              - article [ref=e270]:
+                - paragraph [ref=e271]: Запчасти
+              - img "Запчасти" [ref=e272]
+            - link "Товары для детей" [ref=e273] [cursor=pointer]:
+              - /url: /saratov/tovary_dlya_detey_i_igrushki?localPriority=0
+              - article [ref=e275]:
+                - paragraph [ref=e276]: Товары для детей
+              - img "Товары для детей" [ref=e277]
+            - link "Путешествия" [ref=e278] [cursor=pointer]:
+              - /url: /saratov/travel?context=H4sIAAAAAAAA_0q0MrSqLraysFJKK8rPDUhMT1WyLrYyNLBSKipNKspMTizJL1KyrgUEAAD__-WN5hwnAAAA&localPriority=0&segment=travel
+              - article [ref=e280]:
+                - paragraph [ref=e281]: Жильё для путешествия
+              - img "Путешествия" [ref=e282]
+            - link "Красота и здоровье" [ref=e283] [cursor=pointer]:
+              - /url: /saratov/krasota_i_zdorove?localPriority=0
+              - article [ref=e285]:
+                - paragraph [ref=e286]: Красота и здоровье
+              - img "Красота и здоровье" [ref=e287]
+          - generic [ref=e294]:
+            - heading "Рекомендации для вас" [level=2] [ref=e297]
+            - generic [ref=e298]:
+              - generic [ref=e301]:
+                - banner [ref=e302]:
+                  - link "Водитель категории Б (на своем авто)" [ref=e303] [cursor=pointer]:
+                    - /url: /saratov/vakansii/voditel_kategorii_b_na_svoem_avto_7912122610?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e306]:
+                      - listitem:
+                        - img "Водитель категории Б (на своем авто)" [ref=e308]
+                - generic [ref=e309]:
+                  - generic [ref=e311]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e313] [cursor=pointer]:
+                      - img [ref=e314]
+                    - button [ref=e317] [cursor=pointer]:
+                      - img [ref=e318]
+                  - heading "Водитель категории Б (на своем авто)" [level=2] [ref=e322]:
+                    - link "Водитель категории Б (на своем авто)" [ref=e323] [cursor=pointer]:
+                      - /url: /saratov/vakansii/voditel_kategorii_b_na_svoem_avto_7912122610?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e329]:
+                    - strong [ref=e330]: 80 000 — 220 000 ₽ на руки
+                  - paragraph [ref=e332]:
+                    - generic [ref=e333]:
+                      - img [ref=e335]
+                      - text: Саратов, р-н Волжский
+              - generic [ref=e340]:
+                - banner [ref=e341]:
+                  - link "Гараж, 12 м² Гараж, 12 м² Гараж, 12 м² Гараж, 12 м² Гараж, 12 м² Ещё 2 фото" [ref=e342] [cursor=pointer]:
+                    - /url: /saratov/garazhi_i_mashinomesta/garazh_12_m_7954029037?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e345]:
+                      - listitem [ref=e346]:
+                        - img "Гараж, 12 м²" [ref=e348]
+                      - listitem [ref=e349]:
+                        - img "Гараж, 12 м²" [ref=e351]
+                      - listitem [ref=e352]:
+                        - img "Гараж, 12 м²" [ref=e354]
+                      - listitem [ref=e355]:
+                        - img "Гараж, 12 м²" [ref=e357]
+                      - listitem [ref=e358]:
+                        - img "Гараж, 12 м²" [ref=e360]
+                        - generic [ref=e361]:
+                          - text: Ещё
+                          - text: 2 фото
+                - generic [ref=e362]:
+                  - generic [ref=e364]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e366] [cursor=pointer]:
+                      - img [ref=e367]
+                    - button [ref=e370] [cursor=pointer]:
+                      - img [ref=e371]
+                  - heading "Гараж, 12 м²" [level=2] [ref=e375]:
+                    - link "Гараж, 12 м²" [ref=e376] [cursor=pointer]:
+                      - /url: /saratov/garazhi_i_mashinomesta/garazh_12_m_7954029037?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e382]:
+                    - strong [ref=e383]: 26 000 ₽
+                  - paragraph [ref=e385]:
+                    - generic [ref=e386]:
+                      - img [ref=e388]
+                      - text: Саратов, р-н Заводской
+              - generic [ref=e393]:
+                - banner [ref=e394]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Ошейник для собак Ошейник для собак Ошейник для собак Ошейник для собак Ошейник для собак" [ref=e395] [cursor=pointer]:
+                    - /url: /saratov/tovary_dlya_zhivotnyh/osheynik_dlya_sobak_7953314391?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e398]:
+                      - listitem [ref=e399]:
+                        - img "Ошейник для собак" [ref=e401]
+                      - listitem [ref=e402]:
+                        - img "Ошейник для собак" [ref=e404]
+                      - listitem [ref=e405]:
+                        - img "Ошейник для собак" [ref=e407]
+                      - listitem [ref=e408]:
+                        - img "Ошейник для собак" [ref=e410]
+                      - listitem [ref=e411]:
+                        - img "Ошейник для собак" [ref=e413]
+                - generic [ref=e414]:
+                  - generic [ref=e416]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e418] [cursor=pointer]:
+                      - img [ref=e419]
+                    - button [ref=e422] [cursor=pointer]:
+                      - img [ref=e423]
+                  - heading "Ошейник для собак" [level=2] [ref=e427]:
+                    - link "Ошейник для собак" [ref=e428] [cursor=pointer]:
+                      - /url: /saratov/tovary_dlya_zhivotnyh/osheynik_dlya_sobak_7953314391?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e434]:
+                    - strong [ref=e435]: 500 ₽
+              - generic [ref=e438]:
+                - banner [ref=e439]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Смарт-часы Смарт-часы Смарт-часы Смарт-часы Смарт-часы Ещё 1 фото" [ref=e440] [cursor=pointer]:
+                    - /url: /saratov/chasy_i_ukrasheniya/smart-chasy_4597503101?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e443]:
+                      - listitem [ref=e444]:
+                        - img "Смарт-часы" [ref=e446]
+                      - listitem [ref=e447]:
+                        - img "Смарт-часы" [ref=e449]
+                      - listitem [ref=e450]:
+                        - img "Смарт-часы" [ref=e452]
+                      - listitem [ref=e453]:
+                        - img "Смарт-часы" [ref=e455]
+                      - listitem [ref=e456]:
+                        - img "Смарт-часы" [ref=e458]
+                        - generic [ref=e459]:
+                          - text: Ещё
+                          - text: 1 фото
+                - generic [ref=e460]:
+                  - generic [ref=e462]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e464] [cursor=pointer]:
+                      - img [ref=e465]
+                    - button [ref=e468] [cursor=pointer]:
+                      - img [ref=e469]
+                  - heading "Смарт-часы" [level=2] [ref=e473]:
+                    - link "Смарт-часы" [ref=e474] [cursor=pointer]:
+                      - /url: /saratov/chasy_i_ukrasheniya/smart-chasy_4597503101?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e480]:
+                    - strong [ref=e481]: 500 ₽
+              - generic [ref=e484]:
+                - banner [ref=e485]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Пуфик бу Пуфик бу Пуфик бу" [ref=e486] [cursor=pointer]:
+                    - /url: /saratov/mebel_i_interer/pufik_bu_7920351912?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e489]:
+                      - listitem [ref=e490]:
+                        - img "Пуфик бу" [ref=e492]
+                      - listitem [ref=e493]:
+                        - img "Пуфик бу" [ref=e495]
+                      - listitem [ref=e496]:
+                        - img "Пуфик бу" [ref=e498]
+                - generic [ref=e499]:
+                  - generic [ref=e501]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e503] [cursor=pointer]:
+                      - img [ref=e504]
+                    - button [ref=e507] [cursor=pointer]:
+                      - img [ref=e508]
+                  - heading "Пуфик бу" [level=2] [ref=e512]:
+                    - link "Пуфик бу" [ref=e513] [cursor=pointer]:
+                      - /url: /saratov/mebel_i_interer/pufik_bu_7920351912?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e519]:
+                    - strong [ref=e520]: 8 602 ₽
+                  - paragraph [ref=e522]:
+                    - generic [ref=e523]:
+                      - img [ref=e525]
+                      - text: Саратов, р-н Октябрьский
+              - generic [ref=e530]:
+                - banner [ref=e531]:
+                  - link "Чай Tess Чай Tess Чай Tess" [ref=e532] [cursor=pointer]:
+                    - /url: /saratov/produkty_pitaniya/chay_tess_7996126153?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e535]:
+                      - listitem [ref=e536]:
+                        - img "Чай Tess" [ref=e538]
+                      - listitem [ref=e539]:
+                        - img "Чай Tess" [ref=e541]
+                      - listitem [ref=e542]:
+                        - img "Чай Tess" [ref=e544]
+                - generic [ref=e545]:
+                  - generic [ref=e547]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e549] [cursor=pointer]:
+                      - img [ref=e550]
+                    - button [ref=e553] [cursor=pointer]:
+                      - img [ref=e554]
+                  - heading "Чай Tess" [level=2] [ref=e558]:
+                    - link "Чай Tess" [ref=e559] [cursor=pointer]:
+                      - /url: /saratov/produkty_pitaniya/chay_tess_7996126153?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e565]:
+                    - strong [ref=e566]: 45 ₽
+                  - paragraph [ref=e568]:
+                    - generic [ref=e569]:
+                      - img [ref=e571]
+                      - text: Саратов, р-н Ленинский
+              - generic [ref=e576]:
+                - banner [ref=e577]:
+                  - link "Африканские ёжики" [ref=e578] [cursor=pointer]:
+                    - /url: /saratov/drugie_zhivotnye/afrikanskie_ezhiki_8063015953?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e581]:
+                      - listitem:
+                        - img "Африканские ёжики" [ref=e583]
+                - generic [ref=e584]:
+                  - generic [ref=e586]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e588] [cursor=pointer]:
+                      - img [ref=e589]
+                    - button [ref=e592] [cursor=pointer]:
+                      - img [ref=e593]
+                  - heading "Африканские ёжики" [level=2] [ref=e597]:
+                    - link "Африканские ёжики" [ref=e598] [cursor=pointer]:
+                      - /url: /saratov/drugie_zhivotnye/afrikanskie_ezhiki_8063015953?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e604]:
+                    - strong [ref=e605]: 5 500 ₽
+                  - paragraph [ref=e607]:
+                    - generic [ref=e608]:
+                      - img [ref=e610]
+                      - text: Саратов, р-н Фрунзенский
+              - generic [ref=e615]:
+                - banner [ref=e616]:
+                  - link "Декоративные петухи Декоративные петухи" [ref=e617] [cursor=pointer]:
+                    - /url: /saratov/ptitsy/dekorativnye_petuhi_7982104310?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e620]:
+                      - listitem [ref=e621]:
+                        - img "Декоративные петухи" [ref=e623]
+                      - listitem [ref=e624]:
+                        - img "Декоративные петухи" [ref=e626]
+                - generic [ref=e627]:
+                  - generic [ref=e629]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e631] [cursor=pointer]:
+                      - img [ref=e632]
+                    - button [ref=e635] [cursor=pointer]:
+                      - img [ref=e636]
+                  - heading "Декоративные петухи" [level=2] [ref=e640]:
+                    - link "Декоративные петухи" [ref=e641] [cursor=pointer]:
+                      - /url: /saratov/ptitsy/dekorativnye_petuhi_7982104310?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e647]:
+                    - strong [ref=e648]: 850 ₽
+                  - paragraph [ref=e650]:
+                    - generic [ref=e651]:
+                      - img [ref=e653]
+                      - text: с. Генеральское
+              - generic [ref=e658]:
+                - banner [ref=e659]:
+                  - link "Смарт часы samsung galaxy watch 8 40mm Смарт часы samsung galaxy watch 8 40mm" [ref=e660] [cursor=pointer]:
+                    - /url: /saratov/chasy_i_ukrasheniya/smart_chasy_samsung_galaxy_watch_8_40mm_7950964711?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e663]:
+                      - listitem [ref=e664]:
+                        - img "Смарт часы samsung galaxy watch 8 40mm" [ref=e666]
+                      - listitem [ref=e667]:
+                        - img "Смарт часы samsung galaxy watch 8 40mm" [ref=e669]
+                - generic [ref=e670]:
+                  - generic [ref=e672]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e674] [cursor=pointer]:
+                      - img [ref=e675]
+                    - button [ref=e678] [cursor=pointer]:
+                      - img [ref=e679]
+                  - heading "Смарт часы samsung galaxy watch 8 40mm" [level=2] [ref=e683]:
+                    - link "Смарт часы samsung galaxy watch 8 40mm" [ref=e684] [cursor=pointer]:
+                      - /url: /saratov/chasy_i_ukrasheniya/smart_chasy_samsung_galaxy_watch_8_40mm_7950964711?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e690]:
+                    - strong [ref=e691]: 16 500 ₽
+                  - paragraph [ref=e693]:
+                    - generic [ref=e694]:
+                      - img [ref=e696]
+                      - text: Саратов, р-н Октябрьский
+              - generic [ref=e701]:
+                - banner [ref=e702]:
+                  - link "Берёзовый сок Берёзовый сок" [ref=e703] [cursor=pointer]:
+                    - /url: /saratov/produkty_pitaniya/berezovyy_sok_7983554380?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e706]:
+                      - listitem [ref=e707]:
+                        - img "Берёзовый сок" [ref=e709]
+                      - listitem [ref=e710]:
+                        - img "Берёзовый сок" [ref=e712]
+                - generic [ref=e713]:
+                  - generic [ref=e715]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e717] [cursor=pointer]:
+                      - img [ref=e718]
+                    - button [ref=e721] [cursor=pointer]:
+                      - img [ref=e722]
+                  - heading "Берёзовый сок" [level=2] [ref=e726]:
+                    - link "Берёзовый сок" [ref=e727] [cursor=pointer]:
+                      - /url: /saratov/produkty_pitaniya/berezovyy_sok_7983554380?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e733]:
+                    - strong [ref=e734]: 100 ₽
+                  - paragraph [ref=e736]:
+                    - generic [ref=e737]:
+                      - img [ref=e739]
+                      - text: Саратов, р-н Кировский
+              - generic [ref=e744]:
+                - banner [ref=e745]:
+                  - link "Лодка Кайман Кайман N-360 Лодка Кайман Кайман N-360 Лодка Кайман Кайман N-360 Лодка Кайман Кайман N-360 Лодка Кайман Кайман N-360 Ещё 10 фото" [ref=e746] [cursor=pointer]:
+                    - /url: /saratov/vodnyy_transport/lodka_kayman_kayman_n-360_7982612156?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e749]:
+                      - listitem [ref=e750]:
+                        - img "Лодка Кайман Кайман N-360" [ref=e752]
+                      - listitem [ref=e753]:
+                        - img "Лодка Кайман Кайман N-360" [ref=e755]
+                      - listitem [ref=e756]:
+                        - img "Лодка Кайман Кайман N-360" [ref=e758]
+                      - listitem [ref=e759]:
+                        - img "Лодка Кайман Кайман N-360" [ref=e761]
+                      - listitem [ref=e762]:
+                        - img "Лодка Кайман Кайман N-360" [ref=e764]
+                        - generic [ref=e765]:
+                          - text: Ещё
+                          - text: 10 фото
+                - generic [ref=e766]:
+                  - generic [ref=e768]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e770] [cursor=pointer]:
+                      - img [ref=e771]
+                    - button [ref=e774] [cursor=pointer]:
+                      - img [ref=e775]
+                  - heading "Лодка Кайман Кайман N-360" [level=2] [ref=e779]:
+                    - link "Лодка Кайман Кайман N-360" [ref=e780] [cursor=pointer]:
+                      - /url: /saratov/vodnyy_transport/lodka_kayman_kayman_n-360_7982612156?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e786]:
+                    - strong [ref=e787]: 270 000 ₽
+                  - paragraph [ref=e789]:
+                    - generic [ref=e790]:
+                      - img [ref=e792]
+                      - text: СНТ Железнодорожник
+              - generic [ref=e797]:
+                - banner [ref=e798]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Трусы на мальчика H&M 134/140 новые Трусы на мальчика H&M 134/140 новые Трусы на мальчика H&M 134/140 новые Трусы на мальчика H&M 134/140 новые" [ref=e799] [cursor=pointer]:
+                    - /url: /saratov/detskaya_odezhda_i_obuv/trusy_na_malchika_hm_134140_novye_8037550102?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e802]:
+                      - listitem [ref=e803]:
+                        - img "Трусы на мальчика H&M 134/140 новые" [ref=e805]
+                      - listitem [ref=e806]:
+                        - img "Трусы на мальчика H&M 134/140 новые" [ref=e808]
+                      - listitem [ref=e809]:
+                        - img "Трусы на мальчика H&M 134/140 новые" [ref=e811]
+                      - listitem [ref=e812]:
+                        - img "Трусы на мальчика H&M 134/140 новые" [ref=e814]
+                - generic [ref=e815]:
+                  - generic [ref=e817]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e819] [cursor=pointer]:
+                      - img [ref=e820]
+                    - button [ref=e823] [cursor=pointer]:
+                      - img [ref=e824]
+                  - heading "Трусы на мальчика H&M 134/140 новые" [level=2] [ref=e828]:
+                    - link "Трусы на мальчика H&M 134/140 новые" [ref=e829] [cursor=pointer]:
+                      - /url: /saratov/detskaya_odezhda_i_obuv/trusy_na_malchika_hm_134140_novye_8037550102?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e835]:
+                    - strong [ref=e836]: 1 450 ₽
+              - generic [ref=e841]:
+                - banner [ref=e842]:
+                  - link "Кофе молотый Ornelio Кофе молотый Ornelio Кофе молотый Ornelio Кофе молотый Ornelio Кофе молотый Ornelio Ещё 2 фото" [ref=e843] [cursor=pointer]:
+                    - /url: /saratov/produkty_pitaniya/kofe_molotyy_ornelio_7962842777?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e846]:
+                      - listitem [ref=e847]:
+                        - img "Кофе молотый Ornelio" [ref=e849]
+                      - listitem [ref=e850]:
+                        - img "Кофе молотый Ornelio" [ref=e852]
+                      - listitem [ref=e853]:
+                        - img "Кофе молотый Ornelio" [ref=e855]
+                      - listitem [ref=e856]:
+                        - img "Кофе молотый Ornelio" [ref=e858]
+                      - listitem [ref=e859]:
+                        - img "Кофе молотый Ornelio" [ref=e861]
+                        - generic [ref=e862]:
+                          - text: Ещё
+                          - text: 2 фото
+                - generic [ref=e863]:
+                  - generic [ref=e865]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e867] [cursor=pointer]:
+                      - img [ref=e868]
+                    - button [ref=e871] [cursor=pointer]:
+                      - img [ref=e872]
+                  - heading "Кофе молотый Ornelio" [level=2] [ref=e876]:
+                    - link "Кофе молотый Ornelio" [ref=e877] [cursor=pointer]:
+                      - /url: /saratov/produkty_pitaniya/kofe_molotyy_ornelio_7962842777?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e883]:
+                    - strong [ref=e884]: 1 100 ₽
+                  - paragraph [ref=e886]:
+                    - generic [ref=e887]:
+                      - img [ref=e889]
+                      - text: Саратов, р-н Ленинский
+              - generic [ref=e894]:
+                - banner [ref=e895]:
+                  - link "2-к. дача, 115 м² 2-к. дача, 115 м² 2-к. дача, 115 м² 2-к. дача, 115 м² 2-к. дача, 115 м² Ещё 6 фото" [ref=e896] [cursor=pointer]:
+                    - /url: /saratov/doma_dachi_kottedzhi/2-k._dacha_115_m_7399974294?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e899]:
+                      - listitem [ref=e900]:
+                        - img "2-к. дача, 115 м²" [ref=e902]
+                      - listitem [ref=e903]:
+                        - img "2-к. дача, 115 м²" [ref=e905]
+                      - listitem [ref=e906]:
+                        - img "2-к. дача, 115 м²" [ref=e908]
+                      - listitem [ref=e909]:
+                        - img "2-к. дача, 115 м²" [ref=e911]
+                      - listitem [ref=e912]:
+                        - img "2-к. дача, 115 м²" [ref=e914]
+                        - generic [ref=e915]:
+                          - text: Ещё
+                          - text: 6 фото
+                - generic [ref=e916]:
+                  - generic [ref=e918]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e920] [cursor=pointer]:
+                      - img [ref=e921]
+                    - button [ref=e924] [cursor=pointer]:
+                      - img [ref=e925]
+                  - heading "2-к. дача, 115 м²" [level=2] [ref=e929]:
+                    - link "2-к. дача, 115 м²" [ref=e930] [cursor=pointer]:
+                      - /url: /saratov/doma_dachi_kottedzhi/2-k._dacha_115_m_7399974294?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e936]:
+                    - strong [ref=e937]: 2 500 ₽ за сутки
+                  - paragraph [ref=e939]:
+                    - generic [ref=e940]:
+                      - img [ref=e942]
+                      - text: СНТ Райский Уголок
+              - generic [ref=e947]:
+                - banner [ref=e948]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Creative Sound BlasterX G6 Creative Sound BlasterX G6 Creative Sound BlasterX G6 Creative Sound BlasterX G6 Creative Sound BlasterX G6" [ref=e949] [cursor=pointer]:
+                    - /url: /saratov/tovary_dlya_kompyutera/creative_sound_blasterx_g6_7974284928?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e952]:
+                      - listitem [ref=e953]:
+                        - img "Creative Sound BlasterX G6" [ref=e955]
+                      - listitem [ref=e956]:
+                        - img "Creative Sound BlasterX G6" [ref=e958]
+                      - listitem [ref=e959]:
+                        - img "Creative Sound BlasterX G6" [ref=e961]
+                      - listitem [ref=e962]:
+                        - img "Creative Sound BlasterX G6" [ref=e964]
+                      - listitem [ref=e965]:
+                        - img "Creative Sound BlasterX G6" [ref=e967]
+                - generic [ref=e968]:
+                  - generic [ref=e970]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e972] [cursor=pointer]:
+                      - img [ref=e973]
+                    - button [ref=e976] [cursor=pointer]:
+                      - img [ref=e977]
+                  - heading "Creative Sound BlasterX G6" [level=2] [ref=e981]:
+                    - link "Creative Sound BlasterX G6" [ref=e982] [cursor=pointer]:
+                      - /url: /saratov/tovary_dlya_kompyutera/creative_sound_blasterx_g6_7974284928?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e988]:
+                    - strong [ref=e989]: 4 000 ₽
+              - generic [ref=e992]:
+                - banner [ref=e993]:
+                  - link "Террариум с эублефаром Террариум с эублефаром" [ref=e994] [cursor=pointer]:
+                    - /url: /saratov/drugie_zhivotnye/terrarium_s_eublefarom_7974397941?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e997]:
+                      - listitem [ref=e998]:
+                        - img "Террариум с эублефаром" [ref=e1000]
+                      - listitem [ref=e1001]:
+                        - img "Террариум с эублефаром" [ref=e1003]
+                - generic [ref=e1004]:
+                  - generic [ref=e1006]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1008] [cursor=pointer]:
+                      - img [ref=e1009]
+                    - button [ref=e1012] [cursor=pointer]:
+                      - img [ref=e1013]
+                  - heading "Террариум с эублефаром" [level=2] [ref=e1017]:
+                    - link "Террариум с эублефаром" [ref=e1018] [cursor=pointer]:
+                      - /url: /saratov/drugie_zhivotnye/terrarium_s_eublefarom_7974397941?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1024]:
+                    - strong [ref=e1025]: 5 000 ₽
+                  - paragraph [ref=e1027]:
+                    - generic [ref=e1028]:
+                      - img [ref=e1030]
+                      - text: Саратов, р-н Волжский
+              - generic [ref=e1035]:
+                - banner [ref=e1036]:
+                  - link "Участок 4 сот. (СНТ, ДНП) Участок 4 сот. (СНТ, ДНП) Участок 4 сот. (СНТ, ДНП) Участок 4 сот. (СНТ, ДНП) Участок 4 сот. (СНТ, ДНП) Ещё 1 фото" [ref=e1037] [cursor=pointer]:
+                    - /url: /saratov/zemelnye_uchastki/uchastok_4_sot._snt_dnp_7916855846?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1040]:
+                      - listitem [ref=e1041]:
+                        - img "Участок 4 сот. (СНТ, ДНП)" [ref=e1043]
+                      - listitem [ref=e1044]:
+                        - img "Участок 4 сот. (СНТ, ДНП)" [ref=e1046]
+                      - listitem [ref=e1047]:
+                        - img "Участок 4 сот. (СНТ, ДНП)" [ref=e1049]
+                      - listitem [ref=e1050]:
+                        - img "Участок 4 сот. (СНТ, ДНП)" [ref=e1052]
+                      - listitem [ref=e1053]:
+                        - img "Участок 4 сот. (СНТ, ДНП)" [ref=e1055]
+                        - generic [ref=e1056]:
+                          - text: Ещё
+                          - text: 1 фото
+                - generic [ref=e1057]:
+                  - generic [ref=e1059]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1061] [cursor=pointer]:
+                      - img [ref=e1062]
+                    - button [ref=e1065] [cursor=pointer]:
+                      - img [ref=e1066]
+                  - heading "Участок 4 сот. (СНТ, ДНП)" [level=2] [ref=e1070]:
+                    - link "Участок 4 сот. (СНТ, ДНП)" [ref=e1071] [cursor=pointer]:
+                      - /url: /saratov/zemelnye_uchastki/uchastok_4_sot._snt_dnp_7916855846?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1077]:
+                    - strong [ref=e1078]: 10 000 ₽ в месяц
+                  - paragraph [ref=e1080]:
+                    - generic [ref=e1081]:
+                      - img [ref=e1083]
+                      - text: Саратов, СТ Трамплин, р-н Ленинский
+              - generic [ref=e1088]:
+                - banner [ref=e1089]:
+                  - link "Ковш челюстной Magnus на мини погрузчики Ковш челюстной Magnus на мини погрузчики Ковш челюстной Magnus на мини погрузчики Ковш челюстной Magnus на мини погрузчики" [ref=e1090] [cursor=pointer]:
+                    - /url: /saratov/gruzoviki_i_spetstehnika/kovsh_chelyustnoy_magnus_na_mini_pogruzchiki_8077672612?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1093]:
+                      - listitem [ref=e1094]:
+                        - img "Ковш челюстной Magnus на мини погрузчики" [ref=e1096]
+                      - listitem [ref=e1097]:
+                        - img "Ковш челюстной Magnus на мини погрузчики" [ref=e1099]
+                      - listitem [ref=e1100]:
+                        - img "Ковш челюстной Magnus на мини погрузчики" [ref=e1102]
+                      - listitem [ref=e1103]:
+                        - img "Ковш челюстной Magnus на мини погрузчики" [ref=e1105]
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: Есть доставка
+                              - generic:
+                                - img
+                - generic [ref=e1106]:
+                  - generic [ref=e1108]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1110] [cursor=pointer]:
+                      - img [ref=e1111]
+                    - button [ref=e1114] [cursor=pointer]:
+                      - img [ref=e1115]
+                  - heading "Ковш челюстной Magnus на мини погрузчики" [level=2] [ref=e1119]:
+                    - link "Ковш челюстной Magnus на мини погрузчики" [ref=e1120] [cursor=pointer]:
+                      - /url: /saratov/gruzoviki_i_spetstehnika/kovsh_chelyustnoy_magnus_na_mini_pogruzchiki_8077672612?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1126]:
+                    - strong [ref=e1127]: 85 990 ₽ c НДС
+                  - paragraph [ref=e1129]:
+                    - generic [ref=e1130]:
+                      - img [ref=e1132]
+                      - text: Саратов
+              - generic [ref=e1137]:
+                - banner [ref=e1138]:
+                  - link "Участок 9,5 сот. (промназначения) Участок 9,5 сот. (промназначения) Участок 9,5 сот. (промназначения)" [ref=e1139] [cursor=pointer]:
+                    - /url: /saratov/zemelnye_uchastki/uchastok_95_sot._promnaznacheniya_7965158226?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1142]:
+                      - listitem [ref=e1143]:
+                        - img "Участок 9,5 сот. (промназначения)" [ref=e1145]
+                      - listitem [ref=e1146]:
+                        - img "Участок 9,5 сот. (промназначения)" [ref=e1148]
+                      - listitem [ref=e1149]:
+                        - img "Участок 9,5 сот. (промназначения)" [ref=e1151]
+                - generic [ref=e1152]:
+                  - generic [ref=e1154]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1156] [cursor=pointer]:
+                      - img [ref=e1157]
+                    - button [ref=e1160] [cursor=pointer]:
+                      - img [ref=e1161]
+                  - heading "Участок 9,5 сот. (промназначения)" [level=2] [ref=e1165]:
+                    - link "Участок 9,5 сот. (промназначения)" [ref=e1166] [cursor=pointer]:
+                      - /url: /saratov/zemelnye_uchastki/uchastok_95_sot._promnaznacheniya_7965158226?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1172]:
+                    - strong [ref=e1173]: 70 000 ₽ в месяц
+                  - paragraph [ref=e1175]:
+                    - generic [ref=e1176]:
+                      - img [ref=e1178]
+                      - text: Саратов
+              - generic [ref=e1183]:
+                - banner [ref=e1184]:
+                  - link "Выкладка товара" [ref=e1185] [cursor=pointer]:
+                    - /url: /saratov/podrabotka/vykladka_tovara_8003846764?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1188]:
+                      - listitem:
+                        - img "Выкладка товара" [ref=e1190]
+                - generic [ref=e1191]:
+                  - generic [ref=e1193]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1195] [cursor=pointer]:
+                      - img [ref=e1196]
+                    - button [ref=e1199] [cursor=pointer]:
+                      - img [ref=e1200]
+                  - heading "Выкладка товара" [level=2] [ref=e1204]:
+                    - link "Выкладка товара" [ref=e1205] [cursor=pointer]:
+                      - /url: /saratov/podrabotka/vykladka_tovara_8003846764?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1211]:
+                    - strong [ref=e1212]: до 1 610 ₽ за смену
+                  - paragraph [ref=e1214]:
+                    - generic [ref=e1215]:
+                      - img [ref=e1217]
+                      - text: Саратов, р-н Заводской
+              - generic [ref=e1222]:
+                - banner [ref=e1223]:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - img
+                  - link "Туалетная вода мужская pepe jeans Туалетная вода мужская pepe jeans" [ref=e1224] [cursor=pointer]:
+                    - /url: /saratov/krasota_i_zdorove/tualetnaya_voda_muzhskaya_pepe_jeans_7972210420?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1227]:
+                      - listitem [ref=e1228]:
+                        - img "Туалетная вода мужская pepe jeans" [ref=e1230]
+                      - listitem [ref=e1231]:
+                        - img "Туалетная вода мужская pepe jeans" [ref=e1233]
+                - generic [ref=e1234]:
+                  - generic [ref=e1236]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1238] [cursor=pointer]:
+                      - img [ref=e1239]
+                    - button [ref=e1242] [cursor=pointer]:
+                      - img [ref=e1243]
+                  - heading "Туалетная вода мужская pepe jeans" [level=2] [ref=e1247]:
+                    - link "Туалетная вода мужская pepe jeans" [ref=e1248] [cursor=pointer]:
+                      - /url: /saratov/krasota_i_zdorove/tualetnaya_voda_muzhskaya_pepe_jeans_7972210420?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1254]:
+                    - strong [ref=e1255]: 3 500 ₽
+              - generic [ref=e1258]:
+                - banner [ref=e1259]:
+                  - link "Клетка для грызунов и птиц Клетка для грызунов и птиц Клетка для грызунов и птиц Клетка для грызунов и птиц Клетка для грызунов и птиц" [ref=e1260] [cursor=pointer]:
+                    - /url: /saratov/ptitsy/kletka_dlya_gryzunov_i_ptits_7957309556?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1263]:
+                      - listitem [ref=e1264]:
+                        - img "Клетка для грызунов и птиц" [ref=e1266]
+                      - listitem [ref=e1267]:
+                        - img "Клетка для грызунов и птиц" [ref=e1269]
+                      - listitem [ref=e1270]:
+                        - img "Клетка для грызунов и птиц" [ref=e1272]
+                      - listitem [ref=e1273]:
+                        - img "Клетка для грызунов и птиц" [ref=e1275]
+                      - listitem [ref=e1276]:
+                        - img "Клетка для грызунов и птиц" [ref=e1278]
+                - generic [ref=e1279]:
+                  - generic [ref=e1281]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1283] [cursor=pointer]:
+                      - img [ref=e1284]
+                    - button [ref=e1287] [cursor=pointer]:
+                      - img [ref=e1288]
+                  - heading "Клетка для грызунов и птиц" [level=2] [ref=e1292]:
+                    - link "Клетка для грызунов и птиц" [ref=e1293] [cursor=pointer]:
+                      - /url: /saratov/ptitsy/kletka_dlya_gryzunov_i_ptits_7957309556?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1299]:
+                    - strong [ref=e1300]: 1 000 ₽
+                  - paragraph [ref=e1302]:
+                    - generic [ref=e1303]:
+                      - img [ref=e1305]
+                      - text: Саратов, р-н Ленинский
+              - generic [ref=e1310]:
+                - banner [ref=e1311]:
+                  - link "Выкладка товара" [ref=e1312] [cursor=pointer]:
+                    - /url: /saratov/podrabotka/vykladka_tovara_8003846764?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1315]:
+                      - listitem:
+                        - img "Выкладка товара" [ref=e1317]
+                - generic [ref=e1318]:
+                  - generic [ref=e1320]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1322] [cursor=pointer]:
+                      - img [ref=e1323]
+                    - button [ref=e1326] [cursor=pointer]:
+                      - img [ref=e1327]
+                  - heading "Выкладка товара" [level=2] [ref=e1331]:
+                    - link "Выкладка товара" [ref=e1332] [cursor=pointer]:
+                      - /url: /saratov/podrabotka/vykladka_tovara_8003846764?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1338]:
+                    - strong [ref=e1339]: до 1 610 ₽ за смену
+                  - paragraph [ref=e1341]:
+                    - generic [ref=e1342]:
+                      - img [ref=e1344]
+                      - text: Саратов, р-н Заводской
+              - generic [ref=e1349]:
+                - banner [ref=e1350]:
+                  - link "Гараж, 20 м²" [ref=e1351] [cursor=pointer]:
+                    - /url: /saratov/garazhi_i_mashinomesta/garazh_20_m_7952768578?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1354]:
+                      - listitem:
+                        - img "Гараж, 20 м²" [ref=e1356]
+                - generic [ref=e1357]:
+                  - generic [ref=e1359]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1361] [cursor=pointer]:
+                      - img [ref=e1362]
+                    - button [ref=e1365] [cursor=pointer]:
+                      - img [ref=e1366]
+                  - heading "Гараж, 20 м²" [level=2] [ref=e1370]:
+                    - link "Гараж, 20 м²" [ref=e1371] [cursor=pointer]:
+                      - /url: /saratov/garazhi_i_mashinomesta/garazh_20_m_7952768578?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1377]:
+                    - strong [ref=e1378]: 110 000 ₽
+                  - paragraph [ref=e1380]:
+                    - generic [ref=e1381]:
+                      - img [ref=e1383]
+                      - text: Саратов, р-н Ленинский
+              - generic [ref=e1392]:
+                - banner [ref=e1393]:
+                  - link "Продаю петухов Продаю петухов Продаю петухов Продаю петухов Продаю петухов" [ref=e1394] [cursor=pointer]:
+                    - /url: /saratov/ptitsy/prodayu_petuhov_8002749692?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1397]:
+                      - listitem [ref=e1398]:
+                        - img "Продаю петухов" [ref=e1400]
+                      - listitem [ref=e1401]:
+                        - img "Продаю петухов" [ref=e1403]
+                      - listitem [ref=e1404]:
+                        - img "Продаю петухов" [ref=e1406]
+                      - listitem [ref=e1407]:
+                        - img "Продаю петухов" [ref=e1409]
+                      - listitem [ref=e1410]:
+                        - img "Продаю петухов" [ref=e1412]
+                - generic [ref=e1413]:
+                  - generic [ref=e1415]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1417] [cursor=pointer]:
+                      - img [ref=e1418]
+                    - button [ref=e1421] [cursor=pointer]:
+                      - img [ref=e1422]
+                  - heading "Продаю петухов" [level=2] [ref=e1426]:
+                    - link "Продаю петухов" [ref=e1427] [cursor=pointer]:
+                      - /url: /saratov/ptitsy/prodayu_petuhov_8002749692?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1433]:
+                    - strong [ref=e1434]: 500 ₽
+                  - paragraph [ref=e1436]:
+                    - generic [ref=e1437]:
+                      - img [ref=e1439]
+                      - text: Саратов, р-н Заводской
+              - generic [ref=e1444]:
+                - banner [ref=e1445]:
+                  - link "Перепел Перепел" [ref=e1446] [cursor=pointer]:
+                    - /url: /saratov/ptitsy/perepel_8035753509?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1449]:
+                      - listitem [ref=e1450]:
+                        - img "Перепел" [ref=e1452]
+                      - listitem [ref=e1453]:
+                        - img "Перепел" [ref=e1455]
+                - generic [ref=e1456]:
+                  - generic [ref=e1458]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1460] [cursor=pointer]:
+                      - img [ref=e1461]
+                    - button [ref=e1464] [cursor=pointer]:
+                      - img [ref=e1465]
+                  - heading "Перепел" [level=2] [ref=e1469]:
+                    - link "Перепел" [ref=e1470] [cursor=pointer]:
+                      - /url: /saratov/ptitsy/perepel_8035753509?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1476]:
+                    - strong [ref=e1477]: 300 ₽
+                  - paragraph [ref=e1479]:
+                    - generic [ref=e1480]:
+                      - img [ref=e1482]
+                      - text: Саратов, р-н Кировский
+              - generic [ref=e1487]:
+                - banner [ref=e1488]:
+                  - link "Березовый сок Березовый сок Березовый сок Березовый сок Березовый сок Ещё 5 фото" [ref=e1489] [cursor=pointer]:
+                    - /url: /saratov/produkty_pitaniya/berezovyy_sok_8055554694?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                    - list [ref=e1492]:
+                      - listitem [ref=e1493]:
+                        - img "Березовый сок" [ref=e1495]
+                      - listitem [ref=e1496]:
+                        - img "Березовый сок" [ref=e1498]
+                      - listitem [ref=e1499]:
+                        - img "Березовый сок" [ref=e1501]
+                      - listitem [ref=e1502]:
+                        - img "Березовый сок" [ref=e1504]
+                      - listitem [ref=e1505]:
+                        - img "Березовый сок" [ref=e1507]
+                        - generic [ref=e1508]:
+                          - text: Ещё
+                          - text: 5 фото
+                - generic [ref=e1509]:
+                  - generic [ref=e1511]:
+                    - generic "Добавить в избранное и в сравнение" [ref=e1513] [cursor=pointer]:
+                      - img [ref=e1514]
+                    - button [ref=e1517] [cursor=pointer]:
+                      - img [ref=e1518]
+                  - heading "Березовый сок" [level=2] [ref=e1522]:
+                    - link "Березовый сок" [ref=e1523] [cursor=pointer]:
+                      - /url: /saratov/produkty_pitaniya/berezovyy_sok_8055554694?context=H4sIAAAAAAAA_wEmANn_YToxOntzOjE6IngiO3M6MTY6InpQeFhCa0NqeEExMEVVQ1YiO3351_GSJgAAAA
+                  - paragraph [ref=e1529]:
+                    - strong [ref=e1530]: 500 ₽
+                  - paragraph [ref=e1532]:
+                    - generic [ref=e1533]:
+                      - img [ref=e1535]
+                      - text: Саратов, р-н Заводской
+    - generic [ref=e1542]:
+      - generic [ref=e1544]:
+        - link "Помощь" [ref=e1545] [cursor=pointer]:
+          - /url: https://support.avito.ru
+        - link "Безопасность" [ref=e1546] [cursor=pointer]:
+          - /url: https://www.avito.ru/safety
+        - link "Реклама на сайте" [ref=e1547] [cursor=pointer]:
+          - /url: /ads?utm_source=avito&utm_medium=footer
+        - link "О компании" [ref=e1548] [cursor=pointer]:
+          - /url: /company
+        - link "Карьера" [ref=e1549] [cursor=pointer]:
+          - /url: /company/job
+        - link "Авито Журнал" [ref=e1550] [cursor=pointer]:
+          - /url: /journal/articles
+        - link "Блог" [ref=e1551] [cursor=pointer]:
+          - /url: /blog
+        - link "#яПомогаю" [ref=e1552] [cursor=pointer]:
+          - /url: /avito-care?from=footer
+        - link "Приложение" [ref=e1553] [cursor=pointer]:
+          - /url: https://www.avito.ru/journal/tools/app
+        - link "Займы онлайн" [ref=e1554] [cursor=pointer]:
+          - /url: "https://www.avito.ru/finance/zaimy "
+        - link "Карта сайта" [ref=e1555] [cursor=pointer]:
+          - /url: /links
+        - link "Свежие объявления" [ref=e1556] [cursor=pointer]:
+          - /url: /links/items
+      - paragraph [ref=e1558]:
+        - text: Авито —
+        - link "сайт объявлений России" [ref=e1559] [cursor=pointer]:
+          - /url: /rossiya
+        - text: . © ООО «КЕХ еКоммерц» 2007–2026.
+        - link "Правила Авито" [ref=e1560] [cursor=pointer]:
+          - /url: https://www.avito.ru/legal/
+        - text: .
+        - link "Политика конфиденциальности" [ref=e1561] [cursor=pointer]:
+          - /url: https://www.avito.ru/safety/personal/company
+        - text: . Оплачивая услуги на Авито, вы принимаете
+        - link "оферту" [ref=e1562] [cursor=pointer]:
+          - /url: https://support.avito.ru/articles/200026938
+        - text: .
+        - text: Авито использует
+        - link "рекомендательные технологии" [ref=e1563] [cursor=pointer]:
+          - /url: https://www.avito.ru/legal/rules/rec-technologies/
+        - text: .
+      - generic [ref=e1565]:
+        - link [ref=e1567] [cursor=pointer]:
+          - /url: https://vk.com/avito
+          - img [ref=e1570]
+        - link [ref=e1572] [cursor=pointer]:
+          - /url: https://ok.ru/avito
+          - img [ref=e1575]
+        - link [ref=e1577] [cursor=pointer]:
+          - /url: https://t.me/+mdSS8SofnB9mYmIy
+          - img [ref=e1580]
+        - link [ref=e1582] [cursor=pointer]:
+          - /url: https://rutube.ru/channel/24896637
+          - img [ref=e1585]
+        - link [ref=e1587] [cursor=pointer]:
+          - /url: https://max.ru/avito
+          - img [ref=e1590]
+  - generic:
+    - status [ref=e1591]:
+      - status [ref=e1593]:
+        - generic [ref=e1594]:
+          - article [ref=e1596]:
+            - paragraph [ref=e1597]:
+              - generic [ref=e1598]:
+                - text: Пользуясь сайтом, вы принимаете
+                - link "политику куки." [ref=e1599] [cursor=pointer]:
+                  - /url: /legal/rules/cookies
+                - text: Так Авито становится удобнее 🍪
+          - button "Хорошо" [ref=e1601] [cursor=pointer]:
+            - generic [ref=e1603]: Хорошо
+    - tooltip "Это ваш город? Да Изменить" [ref=e1606]:
+      - text: Это ваш город?
+      - generic [ref=e1607]:
+        - button "Да" [ref=e1608] [cursor=pointer]:
+          - generic [ref=e1610]: Да
+        - button "Изменить" [ref=e1611] [cursor=pointer]:
+          - generic [ref=e1613]: Изменить
+  - iframe [ref=e1616]:
+    
+  - iframe [ref=e1617]:
+    
+```
